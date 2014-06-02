@@ -343,6 +343,10 @@ hr {
                    #fcdf03 true, // 512
                    #89a9d7 true, // 1024
                    #c76d5c true; // 2048
+			   #a1d2eb true, // 4096
+                   #444 true, //8192
+                   #444 true, //16384
+                   #444 true; //32768
 
    $tile-flags:  url('../im/az.png'), // 2
                    url('../im/ru.png'), // 4
@@ -355,6 +359,10 @@ hr {
                    url('../im/dench.png'), // 512
                    url('../im/ruf.png'), // 1024
                    url('../im/ar.png'); // 2048
+			   url('../im/iliya.png'); // 4096
+			   url('../im/deam.png'); // 8192
+			   url('../im/eye.png'); // 16384
+			   url('../im/svat.png'); // 32768
 
   // Build tile colors
   @while $exponent <= $limit {
